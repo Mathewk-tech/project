@@ -4,11 +4,6 @@ body{
 
 }
 
-
-
-
-
-
 .streams{
             display: flex;
             justify-content: space-between;
@@ -46,7 +41,8 @@ body{
             justify-content: center;
             min-height: 100vh;
             padding: 20px;
-            background-color: indigo;
+            background-color: rgb(66, 65, 66);
+            background: linear-gradient();
         }
         
 .btn-1{
