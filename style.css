@@ -59,8 +59,7 @@ body {
   line-height: 1.6;
   background: orangered;
   border-radius: 50px;
-  border: none;
-  
+  border: none;  
 }
 .button1{
   font-weight: 400;
@@ -97,6 +96,16 @@ body {
   height: auto;
   position: relative;
   object-fit: cover;
+}
+@media (max-width:768px) {
+  .title1 img{
+    width: 50px;
+    height: 50px;
+  }
+  .paragraph1 img{
+    width: 50px;
+    height: 50px;
+  }
 }
 
 
