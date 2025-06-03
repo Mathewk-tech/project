@@ -7,6 +7,98 @@ body {
   line-height: 1.6;
   overflow-x: hidden; 
 }
+.title{
+  position: relative;
+  display: flex;
+  background-color: indigo;
+  background: linear-gradient(180deg, #667eea 0%, #764ba2 100%);
+
+}
+.title1{
+  width: 100%;
+  height: auto;
+  position: relative;
+  justify-content: center;
+  display: flex;
+  padding-bottom: 100px;
+  padding-top: 50px;
+
+}
+.title img{
+  width: 200px;
+  height: auto;
+  object-fit: cover;
+}
+.anime img{
+  width: 500px;
+  height: 400px;
+  object-fit: cover;
+}
+.paragraph{
+  width: 100%;
+  height: auto;
+  position: relative;  
+  justify-content: center;
+  background-color: indigo; 
+  background: linear-gradient(0deg, #f093fb 0%, #764ba2 100%)
+}
+.paragraph1{
+  display: flex;
+  position: relative;
+  justify-content: center;
+  gap: 25px;
+}
+.paragraph2 h3{
+  color: white;
+}
+#button2{
+  display: flex;
+  padding: 20px 50px;
+  color: white;  
+  text-decoration: none;
+  line-height: 1.6;
+  background: orangered;
+  border-radius: 50px;
+  border: none;
+  
+}
+.button1{
+  font-weight: 400;
+  border: none;
+  text-align: center;
+  color: white;
+  padding-bottom: 60px;
+  
+}
+.column{
+  display: flex;
+  gap: 80px;
+  justify-content: center;
+  background-color: white;
+  
+}
+
+.column1 img{
+  width: 90px;
+  height: auto;
+  position: relative;
+  object-fit: cover;
+}
+
+.column2 img{
+  width: 90px;
+  height: auto;
+  position: relative;
+  object-fit: cover;
+}
+
+.column3 img{
+  width: 90px;
+  height: auto;
+  position: relative;
+  object-fit: cover;
+}
+
 
 
 .contents {
@@ -23,8 +115,7 @@ body {
 }
 
 .streams {
-  display: flex;
-  
+  display: flex;  
   max-width: 1200px;
   width: 100%;
   gap: 60px;
@@ -67,8 +158,7 @@ body {
   justify-content: center;
   min-height: 100vh;
   padding: 20px;
-  background-color: rgb(66, 65, 66);
-  background: linear-gradient();
+  background-color: rgb(66, 65, 66); 
 }
 
 .btn-1 {
