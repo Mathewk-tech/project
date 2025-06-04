@@ -12,7 +12,8 @@ body {
   display: flex;
   background-color: indigo;
   background: linear-gradient(180deg, #667eea 0%, #764ba2 100%);
-
+  
+  
 }
 .title1{
   width: 100%;
@@ -69,11 +70,18 @@ body {
   padding-bottom: 60px;
   
 }
+.boss{
+  position: relative;
+  margin: auto;
+  width: 70%;
+  background-color: white;
+}
 .column{
   display: flex;
   gap: 80px;
   justify-content: center;
   background-color: white;
+  padding-bottom: 100px;
   
 }
 
@@ -107,6 +115,52 @@ body {
     height: 50px;
   }
 }
+.bigger{
+ 
+  /* position: relative;
+  margin: 0;
+  border: 0; */
+  padding-top: 90px;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  gap: 1px;
+   display: flex;
+
+  
+  
+}
+.big{
+ 
+  justify-content: center;
+  display: flex;
+  border-color: red;
+ 
+  
+
+}
+.innerrow-container{
+  position: relative;
+  display: flex;
+}
+.single{
+
+  display: flex;
+  
+
+
+}
+.row{
+  height: max-content;
+  
+}
+.row1{
+  justify-content: space-between;
+  
+  
+}
+
+
 
 
 
