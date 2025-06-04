@@ -105,59 +105,55 @@ body {
   position: relative;
   object-fit: cover;
 }
-@media (max-width:768px) {
-  .title1 img{
-    width: 50px;
-    height: 50px;
+@media (max-width:1200px) {
+  .title1{
+    width: 100%;
+    height: auto;
   }
   .paragraph1 img{
-    width: 50px;
-    height: 50px;
+    width: 100%;
+    height: auto;
   }
 }
 .bigger{
  
-  /* position: relative;
-  margin: 0;
-  border: 0; */
+  
   padding-top: 90px;
   text-align: center;
   align-items: center;
-  justify-content: space-around;
-  gap: 1px;
-   display: flex;
-
-  
-  
+  justify-content: space-around;  
+   display: flex;  
+   width: fit-content;
+   position: relative;
+}
+@media (max-width:1200px) {
+  .bigger{
+    width: 100%;
+    height: auto;
+  }
+  .boss{
+    width: 100%;
+    height: auto;
+  }
 }
 .big{
  
   justify-content: center;
   display: flex;
   border-color: red;
- 
-  
-
 }
 .innerrow-container{
   position: relative;
   display: flex;
 }
 .single{
-
   display: flex;
-  
-
-
 }
 .row{
-  height: max-content;
-  
+  height: max-content;  
 }
 .row1{
-  justify-content: space-between;
-  
-  
+  justify-content: space-between;  
 }
 
 
@@ -285,39 +281,58 @@ body {
 
 .connect {
     display: flex;
-    
+    position: relative;
     gap: 100px;
     background: white;
     padding: 100px 20px;
     align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
+    overflow: hidden;
+    background-color: white;
+    
+    
 }
 .connect img {
     width: 600px;
     height: 400px;
-    border-radius: 20px;
+    border-radius: 70px;
+    position: relative;
+    object-fit: cover;
     
 }
-#content h2 {
+.connects h2 {
     font-size: 30px;
     color: #333;
     margin-bottom: 1rem;
     font-weight: 700;
+    position: relative;
 }
-#content  p {
+.connects  p {
     font-size: 20px;
     color: #666;
     margin-bottom: 6px;
     line-height: 1.6;
+    position: relative;
 }
-#content h3 {
+.connects h3 {
     font-size: 20px;
     color: #ff6b35;
     margin-bottom: 10px;
     margin-top: 15px;
     font-weight: 600;
     text-transform: capitalize;
+    position: relative;
+}
+@media (max-width:100px) {
+  .connect{
+    width: 100%;
+    height: auto;
+    position: relative;
+    
+  }
+  .connect img{
+    width: 10px;
+    height: auto;
+  }
 }
 .musicians {
   display: flex;
@@ -363,10 +378,11 @@ body {
   object-fit: contain;
   border-radius: 8px;
 }
-@media (max-width: 768px) {
-  .social-media img {
-    width: 50px;
-    height: 50px;
+@media (max-width: 1200px) {
+  .social-media {
+    width: 100%;
+    height: auto;
+    
   }
 }
 .footer {
